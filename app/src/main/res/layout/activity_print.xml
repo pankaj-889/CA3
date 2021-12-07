@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Print">
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="125dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/man"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/user_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Data"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_below="@id/image2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/printName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name : "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_below="@id/user_data"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/printLang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Language : "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_below="@id/printName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/printSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sex : "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_below="@id/printLang"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/printAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age : "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_below="@id/printSex"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+
+</RelativeLayout>
